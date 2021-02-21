@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.button{
+    background-color: #017143;
+    font-weight: 450;
+    border: none;
+    padding:10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    outline: none;
+    color:#fff;
+    min-width: 100px;
+}
+.button:hover{
+    background-color: #00c975;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+.navbar{
+    overflow: hidden;
+
+}
+
+.navbar .container .logo{
+    float: left;
+    max-width: 70px;
+    margin-top: 5px;
+}
+.navbar .container ul{    
+    float: right;
+    padding-left: 0;    
+}
+.navbar .container ul li {
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;    
+}
+.navbar .container ul li a{
+    text-decoration: none;
+    color:#333;
+    font-weight:400;
+}
+.navbar .container ul li a:hover{
+    color: #00c975;   
+}
+.content{
+    overflow: hidden;
+    margin-top: 100px;
+}
+.content .textBox{
+    float: left;
+    width: 50%;
+}
+.content .textBox h2{
+    color:#333;
+    font-size:60px ;
+    width: 100%;
+    font-weight: inherit;
+    margin:0;
+}
+.content .textBox a{
+    color: #017143;
+    text-decoration: none;
+    font-weight: 900;
+}
+.content .textBox p{
+    margin-top: 0;
+    color: #333;
+}
+.content .textBox a:hover{
+    color:  #00c975;
+}
+.content .imgBox{
+    float: right;
+    width: 50%;
+}
+.content .imgBox img{
+    transition: 0.5s;
+}
+.content .imgBox img:hover{
+    transform: translateX(20px);
+}
+.content .icon{
+    float: right;
+    margin-top: 150px;
+    margin-right: 20px;
+}
+.content .icon ul{
+    padding-left: 0;
+}
+.content .icon li{
+    list-style: none;
+}
+.content .icon li i{
+    margin: 10px 0;
+    font-size: 28px;
+    color: #333;
+    transition: 0.5s;
+}
+.content .icon li i:hover{
+    color:  #00c975;
+    transform: translateX(-5px);
+}
+.content .imgBox img{
+    width: 60%;
+    float: right;
+}
+.container .thumb{
+    text-align: center;
+    padding-left: 0;
+    margin: 0;
+}
+.container .thumb li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    cursor: pointer; 
+    transition: 0.5s;
+}
+.container .thumb li:hover{
+    transform: translateY(-20px);
+}
+.container .thumb img{
+    max-width: 60px;
+}
+
+
+
+
+
+
+
